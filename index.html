@@ -2,62 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bissnes promotion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
 
-            <a href="./index.html"><img src="./images/logo-min.png" alt="logo"></a>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./prising.html">Pricing</a></li>
-                <li><a href="./customer.html">Customers</a></li>
-                <li><a href="./resource.html">Resources</a></li>
+                <a href="./index.html" class="logo"><img src="./images/logo-min.png" alt="logo">Product</a>
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="./index.html" class="nav-list-link">Product</a></li>
+                    <li class="nav-list-item"><a href="./prising.html" class="nav-list-link">Pricing</a></li>
+                    <li class="nav-list-item"><a href="./customer.html" class="nav-list-link">Customers</a></li>
+                    <li class="nav-list-item"><a href="./resource.html" class="nav-list-link">Resources</a></li>
+                </ul>
+            </nav>
+            <ul class="list-btn">
+                <li class="list-btn-item"><button class="list-btn-sign-in" type="button">Sign in</button></li>
+                <li class="list-btn-item"><button class="list-btn-sign-up" type="button">Sign up</button></li>
             </ul>
-            <ul>
-                <li><button>Sign in</button></li>
-                <li><button>Sign up</button></li>
-            </ul>
-        </nav>
+
+        </div>
     </header>
     <main>
-        <section>
-            <h1>Work at the speed
-                of thought</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
-                next user
-                experience.</p>
-            <img src="./images/hero-img-min.png" alt="hero">
-            <ul>
-                <li><button type="button">Get started</button></li>
-                <li><button type="button">Watch the Video</button></li>
-            </ul>
+        <section class="section hero">
+            <div class="container hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Work at the speed
+                        of thought</h1>
+                    <p class="hero-title-descr">Tools, tutorials, design and innovation experts, all in one place! The
+                        most
+                        intuitive way to imagine
+                        your
+                        next user
+                        experience.</p>
+
+                    <ul class="hero-list-btn">
+                        <li class="hero-list-item"><button type="button" class="hero-list-btn-get">Get
+                                started</button></li>
+                        <li class="hero-list-item"><button type="button" class="hero-list-btn-watch">Watch the
+                                Video</button></li>
+                    </ul>
+                </div>
+                <img class="hero-img" src="./images/hero-img-min.png" alt="hero">
+            </div>
         </section>
         <section>
-            <h2>Product was Built Specifically for You</h2>
-            <ul>
-                <li>
-                    <h3>First click tests</h3>
-                    <p>While most people enjoy casino gambling,</p>
-                </li>
-                <li>
-                    <h3>Design surveys</h3>
-                    <p>Sports betting, lottery and bingo playing for the fun</p>
-                </li>
-                <li>
-                    <h3>Preference tests</h3>
-                    <p>The Myspace page defines the individual.</p>
-                </li>
-                <li>
-                    <h3>Five second tests</h3>
-                    <p>Personal choices and the overall personality of the person.</p>
-                </li>
-            </ul>
-
+            <div class="container produkt">
+                <h2 class="produkt-title">Product was Built Specifically for You</h2>
+                <ul class="produkt-list">
+                    <li class="produkt-list-item">
+                        <h3 class="produkt-subtitle">First click tests</h3>
+                        <p class="produkt-text">While most people enjoy casino gambling,</p>
+                    </li>
+                    <li>
+                        <h3 class="produkt-subtitle">Design surveys</h3>
+                        <p class="produkt-text">Sports betting, lottery and bingo playing for the fun</p>
+                    </li>
+                    <li>
+                        <h3 class="produkt-subtitle">Preference tests</h3>
+                        <p class="produkt-text">The Myspace page defines the individual.</p>
+                    </li>
+                    <li>
+                        <h3 class="produkt-subtitle">Five second tests</h3>
+                        <p class="produkt-text">Personal choices and the overall personality of the person.</p>
+                    </li>
+                </ul>
+                <button class="produkt-btn" type="button">SIGN UP NOW</button>
+            </div>
         </section>
 
         <section>
