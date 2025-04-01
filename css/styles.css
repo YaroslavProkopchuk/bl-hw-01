@@ -224,6 +224,7 @@ img {
 
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 .managament-text {
   padding-top: 91px;
@@ -268,3 +269,46 @@ h4 {
   font-size: 16px;
   color: #22343d;
 }
+/*support*/
+.support {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.support-item {
+  display: flex;
+}
+
+.support-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.support-text {
+  margin-left: 84px;
+}
+.support-subtitle {
+  margin-top: 41px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+}
+.support-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.support-title-text {
+  margin-bottom: 30px;
+}
+.support-list {
+}
+.support-item {
+}
+.support-check {
+  margin-right: 30.06px;
+  width: 35.07px;
+  height: 35px;
+}
+/*support*/
