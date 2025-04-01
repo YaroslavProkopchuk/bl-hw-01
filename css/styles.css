@@ -1,3 +1,4 @@
+/*baza*/
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -40,7 +41,8 @@ img {
   padding: 0 20px;
   margin: 0 auto;
 }
-
+/*baza*/
+/*header*/
 .header .container {
   display: flex;
 }
@@ -117,7 +119,8 @@ img {
   font-size: 16px;
   color: #fff;
 }
-
+/*header*/
+/*hero*/
 .hero {
 }
 .container.hero {
@@ -166,6 +169,8 @@ img {
   text-decoration-skip-ink: none;
   color: #02897a;
 }
+/*hero*/
+/*product*/
 .container {
 }
 .produkt {
@@ -209,4 +214,57 @@ img {
   font-weight: 700;
   font-size: 16px;
   color: #fff;
+}
+/* product */
+/* managament */
+.managament {
+}
+.container-managment {
+  display: flex;
+
+  align-items: center;
+  margin-top: 50px;
+}
+.managament-text {
+  padding-top: 91px;
+  margin-right: 84px;
+}
+.managament-img {
+  padding-top: 50px;
+}
+.managament-title {
+  margin-top: 8px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.managament-subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.managament-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.managament-subtitle-accessory {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.accessory {
+  margin-bottom: 25px;
+}
+.managament-subtitle-altera {
+  margin-bottom: 12px;
+}
+.altera {
+}
+h4 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
 }
